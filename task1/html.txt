@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Discover Your Dream Destinations</h1>
+        <p>Your adventure begins here.</p>
+        <a href="#destinations" class="cta-button">Explore Now</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Travel Paradise! We're here to make your travel dreams a reality.</p>
+    </section>
+
+    <section id="destinations" class="dest">
+        <h2>Featured Destinations</h2>
+        <div class="destination">
+            <img src="destination1.jpg" alt="Destination 1">
+            <h3>Beach Paradise</h3>
+            <p>Relax on pristine beaches with crystal clear waters.</p>
+        </div>
+        <div class="destination">
+            <img src="destination2.jpg" alt="Destination 2">
+            <h3>Mountain Retreat</h3>
+            <p>Escape to the serenity of the mountains.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or ready to book your trip? Contact us at contact@travelparadise.com</p>
+    </section>
+</body>
+</html>
